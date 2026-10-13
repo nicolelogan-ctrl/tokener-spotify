@@ -118,7 +118,7 @@ const totp = (code % 1000000).toString().padStart(6, '0');
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/listune/tokener-spotify.git
+git clone https://github.com/nicolelogan-ctrl/tokener-spotify.git
 cd tokener-spotify
 npm install
 ```
