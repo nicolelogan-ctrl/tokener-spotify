@@ -1,0 +1,25 @@
+{
+  "name": "tokener-spotify",
+  "version": "1.0.0",
+  "description": "Spotify authentication token generator with TOTP verification",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "update:secrets": "node scripts/update-secrets.js"
+  },
+  "keywords": [
+    "spotify",
+    "token",
+    "authentication",
+    "totp",
+    "api"
+  ],
+  "author": "listune",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.1",
+    "axios": "^1.12.0"
+  }
+}
